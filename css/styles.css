@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+  }
+  @font-face { font-family: StrangeTales;
+     src: url('Strange Tales.ttf'); 
+    } 
+
+    @font-face { font-family: AmerikaSignature;
+       src: url('AmerikaSignatureDemo-Regular.ttf'); 
+      }
+
+    @font-face { font-family: SilverAge;
+       src: url('Silver Age Queens.ttf'); 
+      } 
+    /* @font-face { font-family: Strange tales; font-weight: bold; src: url('Delicious-Bold.otf');} */
+
+header{
+    width: 100vw;
+    background-size:contain;
+    background-image: url("img/decorations.svg");
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-stretch: 120%;
+    font-family: SilverAge;
+    font-size: 200%;
+    width: 100vw;
+    background-color:#152a48 ;
+
+}
+img{
+    width: 100vw;
+    position: absolute;
+    text-align: center;
+   
+
+}
+a{
+    z-index:10;
+    color: white;
+    /* display: block; */
+    text-decoration: none;
+    background-color: #2c3964;
+    position: fixed;
+    /* display: block; */
+    padding: 10px 20px;
+    /* text-decoration: ; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: normal;
+}
+
+.content{
+    width: 100vw;
+    font-size: 200%;
+    padding: 25%;
+    padding-top: 12%;
+    position: relative;
+    bottom: 200%;
+    text-align: center;
+    transform: skewY(-9deg);
+}
+h1{
+    text-align: center;
+    line-height: 1;
+    color: #fffefa;
+    /* text-align: center; */
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: StrangeTales, sans-serif;
+    margin-bottom: 4%;
+}
+.red-curs{
+    color: #e8234d;
+    font-family: AmerikaSignature;
+    font-weight: 500;
+    font-size: 50%;
+    text-decoration:wavy;
+    font-stretch: extra-condensed;
+    /* padding-top:2000px ; */
+}
+.red-sub{
+    color: #e8234d;
+    margin-right: 6%;
+    padding-bottom: 1.5%;
+    font-family: SilverAge;
+    font-size: 60%;
+}
+.banner{
+    color: #fffefa ;
+    background-color: #006e74 ;
+    display: inline;
+    padding: 5px 10px;
+    margin-bottom: 2%;
+    font-size: 70%;
+    /* margin: 5px 55px ; */
+}
+h4{
+    color: #fffefa;
+    margin-top: 2%;
+    font-size: 60%;
+}
+.compressed{
+    font-size: 110%;
+    font-stretch: ultra-condensed;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+sup{
+    font-size: 40%;
+    margin-left: 1%;
+    padding-bottom: 6%;
+}
+
+@media (max-width: 1310px) {
+
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-stretch: 120%;
+        font-family: SilverAge;
+        font-size: 150%;
+        width: 100vw;
+        background-color:#152a48 ;
+    
+    }
+
+
+
+}
+
+@media (max-width: 1010px) {
+
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-stretch: 120%;
+        font-family: SilverAge;
+        font-size: 110%;
+        width: 100vw;
+        background-color:#152a48 ;
+    
+    }
+
+
+
+}
